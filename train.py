@@ -19,15 +19,6 @@ parser.add_argument('--lr', type=float, default=1e-4)
 parser.add_argument('--test_size', type=float, default=0.1)
 args = parser.parse_args()
 
-
-def train():
-    
-    return float(loss)
-
-def val(pos_edge_index, neg_edge_index):
-    
-    return model.test(z, pos_edge_index, neg_edge_index)
-
 def main(args):
     
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
