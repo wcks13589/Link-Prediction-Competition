@@ -16,14 +16,7 @@
 * edge_id
 * to
 * from
-## upload.csv
-* edge_id
-* probability
+
 
 # Evaluate
 * AUC: area under curve
-* AP: average precision
-
-# Baseline
-* Baseline1: predict all link is None
-* Baseline2: using Logistic Regression with features "Common Neighbors", "Preferential Attachment", "Jaccard’s Coefficient" and "Adamic/Adar"
